@@ -7,7 +7,7 @@ const app = express();
 const server = createServer(app);
 
 const corsOptions = {
-  origin: "*",
+  origin: "https://chat-io-omega-one.vercel.app/",
   credentials: true,
   methods: ["GET", "POST"],
 };
